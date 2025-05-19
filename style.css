@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(145, 183, 207);
+}
+    
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(12, 134, 85);
+}   
+h2,h3{
+    text-align: center;
+}
+.box{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.red,.yellow,.green,.purple{
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+
+.flashBtn{
+    background-color: white;
+}
